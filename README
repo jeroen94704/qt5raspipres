@@ -1,0 +1,17 @@
+To run the presentation you need to compile the libProcess library in the experimental directory
+
+Run the presentation with something like:
+
+qmlscene talk720.qml
+
+In the presentation:
+
+SPACE - transition to next slide
+LEFT/RIGHT cursor - jump to previous/next slide
+TAB - focus on text editor in live coding slide
+ESCAPE - Exit slides (except in text editor when lose focus)
+F1 - Make text editor hidden
+F12 - Make terminal window (dis)appear
+
+This will all run on Raspberry Pi if you build Qt5 for that.
+See http://qt-project.org/wiki/RaspberryPi for instructions.
